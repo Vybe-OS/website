@@ -1,0 +1,77 @@
+﻿/* About uses the shared layout, typography and color tokens in styles.css. */
+.about-page{--about-border:#e3e7ff;--about-ink:#00164e}
+.about-header-logo{width:32px;height:32px}
+.about-header-logo img{width:100%;height:100%;position:absolute;inset:0}
+.about-brand-name{display:flex;align-items:center;gap:4px}
+.version-badge{padding:2px 4px;border-radius:999px;background:var(--lavender);font:500 10px/14px var(--mono);letter-spacing:.4px}
+.about-page .nav{gap:4px;padding:4px}
+.about-page .nav a.active{font:600 16px/24px Inter,sans-serif;letter-spacing:0;box-shadow:0 4px 16px -2px #3061d366}
+.about-main{display:flex;flex-direction:column;gap:40px;padding-top:40px;padding-bottom:40px}
+.about-hero{padding:16px 0 8px;text-align:center;display:flex;flex-direction:column;align-items:center}
+.about-badge{display:inline-flex;align-items:center;gap:4px;border-radius:999px;padding:4px 16px;background:var(--lavender);color:var(--blue);font:500 12px/16px var(--mono);letter-spacing:.24px}
+.hero-badge{margin-bottom:16px}
+.about-subtitle{font:600 28px/36px var(--heading);letter-spacing:-.42px;color:#1d5daf;margin-top:4px}
+.about-intro{font-size:18px;line-height:29.25px;max-width:768px;padding:0 25.97px;margin-top:8px}
+.about-panel{background:white;border:1px solid var(--about-border);border-radius:16px;box-shadow:0 1px 2px #0000000d;min-width:0}
+.overview{padding:24px;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:40px}
+.overview-copy{display:flex;flex-direction:column;align-items:flex-start;gap:8px;min-width:0}
+.overview-badge{background:#f3f2ff;font:400 16px/24px var(--mono);letter-spacing:0}
+.overview h2{letter-spacing:-.8px}
+.overview-copy>p{font-size:18px;line-height:29.25px}
+.about-terminal{border:1px solid var(--about-border);border-radius:48px;background:#f3f2ff;padding:1px;overflow:hidden;box-shadow:0 1px 2px #0000000d;font:500 10px/14px var(--mono);letter-spacing:.4px}
+.about-terminal-bar{position:relative;display:flex;justify-content:center;align-items:center;padding:6px 8px 7px;min-height:28px;border-bottom:1px solid var(--about-border);background:#ebedff;color:#737685}
+.about-terminal-dots{position:absolute;left:8px;display:flex;gap:6px}
+.about-terminal-dots i{width:10px;height:10px;background:#ba1a1ab3;border-radius:50%}
+.about-terminal-dots i:nth-child(2){background:#72a6fd}
+.about-terminal-dots i:nth-child(3){background:var(--primary)}
+.about-terminal-body{background:#fff;padding:16px}
+.about-terminal-command{color:var(--blue);font-weight:600;overflow-wrap:anywhere}
+.about-terminal-command>span:first-child{color:#1d5daf}
+.terminal-path{color:#005771}
+.about-terminal-info{display:flex;gap:16px;padding-top:12px}
+.about-terminal-info pre{width:64px;flex-shrink:0;font:600 10px/12.5px var(--mono);color:var(--blue);letter-spacing:.4px}
+.about-terminal-info dl{margin:0;display:flex;flex-direction:column;gap:4px;min-width:0}
+.about-terminal-info dl>div{display:flex;gap:6px}
+.about-terminal-info dt{font-weight:600;color:var(--blue)}
+.about-terminal-info dd{margin:0}
+.purpose-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.purpose-card{padding:24px;min-height:194.75px}
+.about-icon{display:flex;align-items:center;justify-content:center;width:48px;height:48px;border-radius:48px;background:#ebedff;flex-shrink:0}
+.purpose-card .about-icon{margin-bottom:16px}
+.purpose-card h2{font-size:20px;line-height:28px;letter-spacing:-.2px}
+.purpose-card p{font-size:15px;line-height:24.38px;margin-top:4px}
+.about-section-heading{text-align:center;padding-bottom:24px}
+.about-section-heading h2{font-size:28px;line-height:36px;letter-spacing:-.42px}
+.about-section-heading p{font-size:13px;line-height:20px;margin-top:4px}
+.technology-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.technology-card{padding:16px;min-height:149.75px}
+.technology-card .about-icon{width:40px;height:40px;margin-bottom:8px;border-radius:32px}
+.technology-card h3{font-size:20px;line-height:28px;letter-spacing:-.2px;color:var(--about-ink)}
+.technology-card p{margin-top:4px;font-size:13px;line-height:17.88px}
+.team-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.team-card{display:flex;align-items:center;gap:8px;padding:16px;min-height:82px}
+.team-avatar{width:48px;height:48px;display:flex;align-items:center;justify-content:center;flex-shrink:0;border-radius:50%;background:linear-gradient(45deg,#3061d3,#72a6fd);box-shadow:0 1px 2px #0000000d}
+.team-card h3{color:var(--about-ink);font:700 14px/20px var(--heading);letter-spacing:-.14px}
+.team-card p{font-size:13px;line-height:20px;font-weight:500;color:#1d5daf}
+.about-footer{margin-top:40px;padding:24px 0}
+.about-footer-top{display:flex;align-items:center;justify-content:space-between;gap:24px}
+.about-footer-identity{display:flex;align-items:center;gap:8px}
+.about-footer .brand{gap:8px;letter-spacing:-.2px}
+.about-footer-logo{width:24px;height:24px}
+.about-footer-logo img{width:100%;height:100%}
+.footer-separator{font-size:13px;color:#737685}
+.about-footer-motto{font-size:13px;line-height:20px}
+.about-footer nav{display:flex;gap:16px;font:500 12px/16px var(--mono);letter-spacing:.24px}
+.about-footer-bottom{border-top:1px solid #ebedff;padding-top:9px;margin-top:16px;display:flex;justify-content:space-between;gap:16px;color:#737685;font:500 10px/14px var(--mono);letter-spacing:.4px}
+@media(max-width:1000px){.overview{gap:24px}.overview h2{font-size:32px;line-height:42px}.overview-copy>p{font-size:16px;line-height:26px}.about-terminal-info{gap:8px}.about-terminal-info pre{width:64px}.technology-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.team-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.about-footer-bottom{flex-wrap:wrap}}
+@media(max-width:700px){.about-page .header-inner{gap:12px}.about-page .brand{gap:8px}.about-brand-name{gap:3px}.version-badge{font-size:8px;letter-spacing:0}.about-page .nav{gap:0}.about-page .nav a.active{font-size:12px;line-height:16px}.about-main{padding-top:24px;padding-bottom:24px;gap:28px}.about-hero{padding-top:12px}.about-hero h1{font-size:40px;line-height:50px}.about-subtitle{font-size:22px;line-height:32px;max-width:440px}.about-intro{padding:0;font-size:16px;line-height:26px;max-width:450px}.overview{grid-template-columns:1fr;gap:24px;padding:20px}.overview h2{font-size:30px;line-height:40px}.overview-badge{font-size:13px;line-height:20px}.about-terminal{width:100%;border-radius:28px}.about-terminal-body{padding:16px 12px}.about-terminal-info dl>div{flex-wrap:wrap;gap:2px 5px}.purpose-grid{grid-template-columns:1fr;gap:16px}.purpose-card{min-height:0;padding:20px}.about-section-heading h2{font-size:26px;line-height:34px}.team-grid{gap:12px}.team-card{padding:12px;gap:8px}.team-card h3{font-size:12px;line-height:18px}.team-card p{font-size:11px;line-height:18px}.team-avatar{width:40px;height:40px}.about-footer{margin-top:24px}.about-footer-top{flex-wrap:wrap;gap:16px}.about-footer-bottom{font-size:9px;line-height:16px}}
+@media(max-width:430px){.about-page .header-inner{justify-content:center}.about-page .nav{margin-left:auto}.about-page .nav a{padding:6px 8px}.about-header-logo{width:24px;height:24px}.about-page .brand{font-size:16px;gap:5px}.version-badge{font-size:7px;padding:2px 3px}.team-grid{grid-template-columns:1fr}.team-card{padding:16px}.team-card h3{font-size:14px;line-height:20px}.team-card p{font-size:13px;line-height:20px}.team-avatar{width:48px;height:48px}.technology-card{padding:14px}.technology-card h3{font-size:18px}.about-footer-identity{flex-wrap:wrap}.about-footer-motto{font-size:11px}}
+
+
+/* Names, student numbers and roles remain readable on three separate lines. */
+.team-card{gap:12px;min-height:112px}
+.team-card>div{min-width:0}
+.team-card h3{overflow-wrap:break-word}
+.team-card p.team-npm{margin:3px 0;font:500 10px/16px var(--mono);letter-spacing:.15px;color:#737685}
+@media(max-width:700px){.team-card{gap:10px;align-items:flex-start}.team-card p.team-npm{font-size:9px;letter-spacing:0}}
+@media(max-width:430px){.team-card{align-items:center}.team-card p.team-npm{font-size:10px}}
