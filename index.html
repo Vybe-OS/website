@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -9,54 +9,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
-<script src="script.js" defer></script>
 </head>
 <body>
-<a class="skip-link" href="#main">Skip to content</a>
-<header class="header">
-<div class="container header-inner">
-<a class="brand" href="#home" aria-label="VybeOS home"><span class="logo header-logo"><img src="assets/876bd.png" alt=""></span><span>VybeOS</span></a>
-<nav class="nav" aria-label="Main navigation"><a class="active" href="#home" aria-current="page">Home</a><a href="downloads.html">Downloads</a><a href="about.html">About</a></nav>
-</div>
-</header>
-<main id="main">
-<section class="hero container" id="home" aria-labelledby="hero-title">
-<h1 id="hero-title">Meet VybeOS.</h1>
-<p class="tagline">A desktop for learning and building.</p>
-<p class="intro">An Arch Linux project for learning Linux and programming.</p>
-<div class="actions"><a class="button primary" href="downloads.html"><img src="assets/4b73b.svg" alt="">Download VybeOS</a><a class="button secondary" href="#about"><img src="assets/5f499.svg" alt="">Learn More</a></div>
-<div class="desktop" role="img" aria-label="Illustration of the planned VybeOS desktop with a terminal and code editor; not a live system">
-<div class="desktop-bar"><div class="workspaces"><span class="sway"><img src="assets/508b1.svg" alt="">sway</span><span class="workspace"><i></i>1:code</span><span>2:web</span><span>3:media</span></div><span class="music"><img src="assets/3a077.svg" alt="">Arctic desktop preview</span><span class="clock"><img src="assets/f1618.svg" alt="">14:42</span></div>
-<div class="windows">
-<div class="terminal window">
-<div><div class="window-title"><span class="traffic"><i></i><i></i><i></i></span><span>vybe@arctic • terminal</span><img src="assets/a6c73.svg" alt=""></div><div class="prompt">➜ <span>~</span> neofetch</div>
-<div class="system-info"><pre class="ascii"> /\_/\
-( o.o )
- &gt; ^ &lt;
-VYBE-OS
-ARCTIC</pre><div class="specs"><p><b>OS:</b> VybeOS Linux x86_64</p><p><b>Base:</b> Arch Linux</p><p><b>Kernel:</b> Linux (planned)</p><p><b>WM:</b> Sway (Wayland)</p><p><b>Shell:</b> zsh + starship</p></div></div></div>
-<div class="palette"><i></i><i></i><i></i><i></i><span>Desktop illustration</span></div>
-</div>
-<div class="editor window">
-<div><div class="window-title"><span class="file-tab"><img src="assets/a87e0.svg" alt="">main.rs</span><span class="cyan">NORMAL</span></div>
-<div class="code"><div><span class="line-number">01</span><code><span class="cyan">fn</span> <span class="lavender">main</span>() {</code></div><div><span class="line-number">02</span><code> <span class="cyan">let</span> project = "VybeOS";</code></div><div><span class="line-number">03</span><code> println!(<span class="cyan">"Hello from {}"</span>, project);</code></div><div><span class="line-number">04</span><code> // Add your code here.</code></div><div><span class="line-number">05</span><code>}</code></div></div></div>
-<div class="editor-status"><span><i></i>RUST_ANALYZER READY</span><span>master</span></div>
-</div></div></div>
-</section>
-<section class="features container" id="about" aria-labelledby="features-title">
-<div class="section-heading"><h2 id="features-title">Why VybeOS?</h2><p>We are building an Arch-based desktop for learning Linux,<br class="desktop-break"> writing code, and working with the terminal.</p></div>
-<div class="cards">
-<article class="card"><span class="feature-icon"><img src="assets/59729.svg" alt=""></span><h3>Arch Linux Based</h3><p>Uses Arch Linux as a starting point for learning package management and configuring a Linux system.</p></article>
-<article class="card"><span class="feature-icon"><img src="assets/9bf4e.svg" alt=""></span><h3>Lightweight Desktop</h3><p>Uses Sway to arrange application windows in tiles, with a simple desktop layout and keyboard shortcuts.</p></article>
-<article class="card"><span class="feature-icon"><img src="assets/5f24c.svg" alt=""></span><h3>Developer Focused</h3><p>Brings together a terminal, editor, and development tools for practicing programming and working on projects.</p></article>
-</div></section>
-<section class="downloads container" id="downloads" aria-labelledby="download-title"><div class="download-card"><h2 id="download-title">Want to follow the project?</h2><p>Check the ISO release status, planned hardware requirements,<br class="desktop-break"> and installation overview.</p><a class="button primary" href="downloads.html"><img src="assets/4b73b.svg" alt="">Explore Downloads</a></div></section>
-</main>
-<footer class="footer"><div class="container footer-inner"><div class="footer-top"><a class="brand footer-brand" href="#home"><span class="logo footer-logo"><img src="assets/876bd.png" alt=""></span><span>VybeOS</span></a><span class="motto">— Imagine. Create. Build.</span><nav aria-label="Footer navigation"><a href="#home">Home</a><a href="downloads.html">Downloads</a><a href="about.html">About</a></nav></div><div class="footer-bottom"><span>VybeOS &mdash; An Operating Systems course project.</span><span>Built with Arch Linux.</span></div></div></footer>
-</body></html>
-
-
-
-
-
+<div id="app"></div>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>
