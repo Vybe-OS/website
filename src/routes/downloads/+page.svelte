@@ -1,11 +1,13 @@
 <script>
   import Nav from '#lib/components/Nav.svelte'
+  import { asset } from '#lib/asset-url.js';
+  import logo from '#lib/assets/876bd.png'
   import '#lib/styles/downloads.css'
 </script>
 
 <header class="header">
 <div class="container header-inner">
-<a class="brand" href="#/" aria-label="VybeOS home"><span class="logo download-header-logo"><img src="assets/876bd.png" alt=""></span><span>Vybe<span class="brand-os">OS</span></span></a>
+<a class="brand" href="/" aria-label="VybeOS home"><span class="logo download-header-logo"><img src={logo} alt=""></span><span>Vybe<span class="brand-os">OS</span></span></a>
 <Nav current="/downloads" />
 </div>
 </header>
@@ -17,47 +19,47 @@
 </section>
 <section class="iso-section" aria-labelledby="iso-title">
 <div class="iso-card">
-<div class="iso-status"><span class="badge official"><i aria-hidden="true"></i>Project ISO</span><span class="badge coming-soon"><img src="assets/5ccca.svg" alt="">Coming Soon</span></div>
-<div class="iso-identity"><span class="disc-icon"><img src="assets/d191e.svg" alt=""></span><h2 id="iso-title">VybeOS Arctic Edition</h2><p>Architecture: x86_64</p></div>
+<div class="iso-status"><span class="badge official"><i aria-hidden="true"></i>Project ISO</span><span class="badge coming-soon"><img src={asset('5ccca.svg')} alt="">Coming Soon</span></div>
+<div class="iso-identity"><span class="disc-icon"><img src={asset('d191e.svg')} alt=""></span><h2 id="iso-title">VybeOS Arctic Edition</h2><p>Architecture: x86_64</p></div>
 <dl class="iso-metadata"><div><dt>Version</dt><dd>TBA</dd></div><div><dt>File Size</dt><dd>TBA</dd></div></dl>
-<button class="iso-download" disabled aria-describedby="iso-availability"><img src="assets/02ef9.svg" alt=""><span id="iso-availability">Download ISO &mdash; Coming Soon</span></button>
+<button class="iso-download" disabled aria-describedby="iso-availability"><img src={asset('02ef9.svg')} alt=""><span id="iso-availability">Download ISO &mdash; Coming Soon</span></button>
 </div>
 </section>
 <section class="requirements-section" aria-labelledby="requirements-title">
 <div class="download-section-heading"><div class="requirement-badges"><span class="badge">Planned Hardware</span><span class="badge">Testing Pending</span></div><h2 id="requirements-title">System Requirements</h2><p>Initial hardware targets. Final requirements will be confirmed after testing.</p></div>
 <div class="requirements-grid">
 <article class="requirement-card">
-<div class="requirement-card-heading"><div><h3>Minimum Requirements</h3><p>Starting point for installation testing</p></div><span class="requirement-icon"><img src="assets/df457.svg" alt=""></span></div>
+<div class="requirement-card-heading"><div><h3>Minimum Requirements</h3><p>Starting point for installation testing</p></div><span class="requirement-icon"><img src={asset('df457.svg')} alt=""></span></div>
 <dl class="hardware-list">
-<div><img src="assets/828cf.svg" alt=""><div><dt>Processor</dt><dd>64-bit Dual Core x86_64</dd></div></div>
-<div><img src="assets/243c5.svg" alt=""><div><dt>RAM</dt><dd>2 GB RAM</dd></div></div>
-<div><img src="assets/2a8d6.svg" alt=""><div><dt>Storage</dt><dd>15 GB available storage</dd></div></div>
-<div><img src="assets/6d03a.svg" alt=""><div><dt>Graphics</dt><dd>Standard VGA display</dd></div></div>
+<div><img src={asset('828cf.svg')} alt=""><div><dt>Processor</dt><dd>64-bit Dual Core x86_64</dd></div></div>
+<div><img src={asset('243c5.svg')} alt=""><div><dt>RAM</dt><dd>2 GB RAM</dd></div></div>
+<div><img src={asset('2a8d6.svg')} alt=""><div><dt>Storage</dt><dd>15 GB available storage</dd></div></div>
+<div><img src={asset('6d03a.svg')} alt=""><div><dt>Graphics</dt><dd>Standard VGA display</dd></div></div>
 </dl>
 </article>
 <article class="requirement-card recommended">
-<div class="requirement-card-heading"><div><h3>Recommended Requirements</h3><p>Suggested setup for development tools</p></div><span class="requirement-icon"><img src="assets/726d4.svg" alt=""></span></div>
+<div class="requirement-card-heading"><div><h3>Recommended Requirements</h3><p>Suggested setup for development tools</p></div><span class="requirement-icon"><img src={asset('726d4.svg')} alt=""></span></div>
 <dl class="hardware-list">
-<div><img src="assets/cfea8.svg" alt=""><div><dt>Processor</dt><dd>Quad Core x86_64 or better</dd></div></div>
-<div><img src="assets/27441.svg" alt=""><div><dt>RAM</dt><dd>4 GB+ RAM</dd></div></div>
-<div><img src="assets/ff257.svg" alt=""><div><dt>Storage</dt><dd>30 GB SSD storage</dd></div></div>
-<div><img src="assets/b0093.svg" alt=""><div><dt>Graphics</dt><dd>Hardware accelerated graphics</dd></div></div>
+<div><img src={asset('cfea8.svg')} alt=""><div><dt>Processor</dt><dd>Quad Core x86_64 or better</dd></div></div>
+<div><img src={asset('27441.svg')} alt=""><div><dt>RAM</dt><dd>4 GB+ RAM</dd></div></div>
+<div><img src={asset('ff257.svg')} alt=""><div><dt>Storage</dt><dd>30 GB SSD storage</dd></div></div>
+<div><img src={asset('b0093.svg')} alt=""><div><dt>Graphics</dt><dd>Hardware accelerated graphics</dd></div></div>
 </dl>
 </article>
 </div>
 </section>
 <section class="installation-section" aria-labelledby="installation-title">
-<div class="download-section-heading"><span class="badge quickstart"><img src="assets/bbc99.svg" alt="">INSTALLATION OVERVIEW</span><h2 id="installation-title">Installation Guide</h2><p>The planned installation process.<br class="desktop-break"> Detailed instructions will accompany the ISO release.</p></div>
+<div class="download-section-heading"><span class="badge quickstart"><img src={asset('bbc99.svg')} alt="">INSTALLATION OVERVIEW</span><h2 id="installation-title">Installation Guide</h2><p>The planned installation process.<br class="desktop-break"> Detailed instructions will accompany the ISO release.</p></div>
 <ol class="installation-steps">
-<li><div class="step-top"><span class="step-number">01</span><img src="assets/db83f.svg" alt=""></div><h3>Download ISO</h3><p>Download the VybeOS Arctic ISO here once the release is available.</p></li>
-<li><div class="step-top"><span class="step-number">02</span><img src="assets/e3949.svg" alt=""></div><h3>Create Bootable USB</h3><p>Write the ISO to a USB drive with an imaging tool. This erases the USB contents.</p></li>
-<li><div class="step-top"><span class="step-number">03</span><img src="assets/6af1e.svg" alt=""></div><h3>Boot VybeOS</h3><p>Restart your computer and select the USB drive from the boot menu.</p></li>
-<li><div class="step-top"><span class="step-number">04</span><img src="assets/b7206.svg" alt=""></div><h3>Install VybeOS</h3><p>Follow the installation guide provided with the release.</p></li>
+<li><div class="step-top"><span class="step-number">01</span><img src={asset('db83f.svg')} alt=""></div><h3>Download ISO</h3><p>Download the VybeOS Arctic ISO here once the release is available.</p></li>
+<li><div class="step-top"><span class="step-number">02</span><img src={asset('e3949.svg')} alt=""></div><h3>Create Bootable USB</h3><p>Write the ISO to a USB drive with an imaging tool. This erases the USB contents.</p></li>
+<li><div class="step-top"><span class="step-number">03</span><img src={asset('6af1e.svg')} alt=""></div><h3>Boot VybeOS</h3><p>Restart your computer and select the USB drive from the boot menu.</p></li>
+<li><div class="step-top"><span class="step-number">04</span><img src={asset('b7206.svg')} alt=""></div><h3>Install VybeOS</h3><p>Follow the installation guide provided with the release.</p></li>
 </ol>
 </section>
 </div>
 </main>
 <footer class="footer download-footer"><div class="container footer-inner">
-<div class="download-footer-top"><div><a class="brand" href="#/"><span class="logo download-footer-logo"><img src="assets/876bd.png" alt=""></span><span>Vybe<span class="brand-os">OS</span></span></a><p class="download-motto">IMAGINE. CREATE. BUILD.</p></div><Nav footer current={"/downloads"} /></div>
+<div class="download-footer-top"><div><a class="brand" href="/"><span class="logo download-footer-logo"><img src={logo} alt=""></span><span>Vybe<span class="brand-os">OS</span></span></a><p class="download-motto">IMAGINE. CREATE. BUILD.</p></div><Nav footer current={"/downloads"} /></div>
 <div class="download-footer-bottom"><p>VybeOS &mdash; An Operating Systems course project.</p><p class="platforms"><span>Based on Arch Linux</span><i aria-hidden="true"></i><span>Sway / Wayland</span></p></div>
 </div></footer>
