@@ -47,7 +47,7 @@
 <article class="about-panel team-card"><span class="team-avatar"><img src={asset('9087d.svg')} alt=""></span><div><h3>Muhammad Ilham Mutaqin</h3><p class="team-npm">NPM: 257006111006</p><p>System Configuration</p></div></article>
 <article class="about-panel team-card"><span class="team-avatar"><img src={asset('9087d.svg')} alt=""></span><div><h3>Raffi Putra Fahreza</h3><p class="team-npm">NPM: 25700611014</p><p>Desktop Setup</p></div></article>
 <article class="about-panel team-card"><span class="team-avatar"><img src={asset('9087d.svg')} alt=""></span><div><h3>Muhammad Fathir Maulana</h3><p class="team-npm">NPM: 257006111022</p><p>Development Tools</p></div></article>
-<article class="about-panel team-card"><span class="team-avatar"><img src={asset('9087d.svg')} alt=""></span><div><h3>Rizky Haviz</h3><p class="team-npm">NPM: 257006111022</p><p>UI/UX Design</p></div></article>
+<article class="about-panel team-card"><span class="team-avatar"><img src={asset('9087d.svg')} alt=""></span><div><h3>Rizky Haviz</h3><p class="team-npm">NPM: 257006111024</p><p>UI/UX Design</p></div></article>
 <article class="about-panel team-card"><span class="team-avatar"><img src={asset('9087d.svg')} alt=""></span><div><h3>Samara Shifa Novlindra</h3><p class="team-npm">NPM: 257006111042</p><p>Documentation</p></div></article>
 <article class="about-panel team-card"><span class="team-avatar"><img src={asset('9087d.svg')} alt=""></span><div><h3>Sheyla Sri Agus Dwiyani</h3><p class="team-npm">NPM: 257006111046</p><p>Project Infrastructure</p></div></article>
 </div></section>
