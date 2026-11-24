@@ -31,19 +31,27 @@
 <article class="requirement-card">
 <div class="requirement-card-heading"><div><h3>Minimum Requirements</h3><p>Starting point for installation testing</p></div><span class="requirement-icon"><img src={asset('df457.svg')} alt=""></span></div>
 <dl class="hardware-list">
-<div><img src={asset('828cf.svg')} alt=""><div><dt>Processor</dt><dd>64-bit Dual Core x86_64</dd></div></div>
-<div><img src={asset('243c5.svg')} alt=""><div><dt>RAM</dt><dd>2 GB RAM</dd></div></div>
-<div><img src={asset('2a8d6.svg')} alt=""><div><dt>Storage</dt><dd>15 GB available storage</dd></div></div>
-<div><img src={asset('6d03a.svg')} alt=""><div><dt>Graphics</dt><dd>Standard VGA display</dd></div></div>
+<div><img src={asset('828cf.svg')} alt=""><div><dt>Architecture</dt><dd>x86_64 (64-bit)</dd></div></div>
+<div><img src={asset('828cf.svg')} alt=""><div><dt>Processor</dt><dd>Dual-core</dd></div></div>
+<div><img src={asset('243c5.svg')} alt=""><div><dt>RAM</dt><dd>1 GB</dd></div></div>
+<div><img src={asset('2a8d6.svg')} alt=""><div><dt>Storage</dt><dd>15 GB</dd></div></div>
+<div><img src={asset('df457.svg')} alt=""><div><dt>Boot Mode</dt><dd>UEFI with GPT partition</dd></div></div>
+<div><img src={asset('2a8d6.svg')} alt=""><div><dt>Installation Media</dt><dd>4 GB USB</dd></div></div>
+<div><img src={asset('bbc99.svg')} alt=""><div><dt>Network</dt><dd>Ethernet (required during installation)</dd></div></div>
+<div><img src={asset('6d03a.svg')} alt=""><div><dt>Graphics</dt><dd>GPU with DRM/KMS support (Sway/Wayland requirement)</dd></div></div>
 </dl>
 </article>
 <article class="requirement-card recommended">
 <div class="requirement-card-heading"><div><h3>Recommended Requirements</h3><p>Suggested setup for development tools</p></div><span class="requirement-icon"><img src={asset('726d4.svg')} alt=""></span></div>
 <dl class="hardware-list">
-<div><img src={asset('cfea8.svg')} alt=""><div><dt>Processor</dt><dd>Quad Core x86_64 or better</dd></div></div>
-<div><img src={asset('27441.svg')} alt=""><div><dt>RAM</dt><dd>4 GB+ RAM</dd></div></div>
-<div><img src={asset('ff257.svg')} alt=""><div><dt>Storage</dt><dd>30 GB SSD storage</dd></div></div>
-<div><img src={asset('b0093.svg')} alt=""><div><dt>Graphics</dt><dd>Hardware accelerated graphics</dd></div></div>
+<div><img src={asset('cfea8.svg')} alt=""><div><dt>Architecture</dt><dd>x86_64</dd></div></div>
+<div><img src={asset('cfea8.svg')} alt=""><div><dt>Processor</dt><dd>Quad-core</dd></div></div>
+<div><img src={asset('27441.svg')} alt=""><div><dt>RAM</dt><dd>2 GB or more</dd></div></div>
+<div><img src={asset('ff257.svg')} alt=""><div><dt>Storage</dt><dd>25 GB or more</dd></div></div>
+<div><img src={asset('726d4.svg')} alt=""><div><dt>Boot Mode</dt><dd>UEFI</dd></div></div>
+<div><img src={asset('ff257.svg')} alt=""><div><dt>Installation Media</dt><dd>8 GB USB</dd></div></div>
+<div><img src={asset('bbc99.svg')} alt=""><div><dt>Network</dt><dd>Ethernet</dd></div></div>
+<div><img src={asset('b0093.svg')} alt=""><div><dt>Graphics</dt><dd>GPU with open-source driver</dd></div></div>
 </dl>
 </article>
 </div>
