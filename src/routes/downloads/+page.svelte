@@ -19,10 +19,10 @@
 </section>
 <section class="iso-section" aria-labelledby="iso-title">
 <div class="iso-card">
-<div class="iso-status"><span class="badge official"><i aria-hidden="true"></i>Project ISO</span><span class="badge coming-soon"><img src={asset('5ccca.svg')} alt="">Coming Soon</span></div>
+<div class="iso-status"><span class="badge official"><i aria-hidden="true"></i>Project ISO</span><span class="badge available"><img src={asset('5ccca.svg')} alt="">Available Now</span></div>
 <div class="iso-identity"><span class="disc-icon"><img src={asset('d191e.svg')} alt=""></span><h2 id="iso-title">VybeOS Arctic Edition</h2><p>Architecture: x86_64</p></div>
-<dl class="iso-metadata"><div><dt>Version</dt><dd>TBA</dd></div><div><dt>File Size</dt><dd>TBA</dd></div></dl>
-<button class="iso-download" disabled aria-describedby="iso-availability"><img src={asset('02ef9.svg')} alt=""><span id="iso-availability">Download ISO &mdash; Coming Soon</span></button>
+<dl class="iso-metadata"><div><dt>Version</dt><dd>2026.11.25</dd></div><div><dt>File Size</dt><dd>1.24 GB</dd></div></dl>
+<a class="iso-download" href="https://cdn.vybeos.dev/vybeos-2026.11.25-x86_64.iso" download aria-describedby="iso-availability"><img src={asset('02ef9.svg')} alt=""><span id="iso-availability">Download ISO &mdash; x86_64</span></a>
 </div>
 </section>
 <section class="requirements-section" aria-labelledby="requirements-title">
@@ -59,7 +59,7 @@
 <section class="installation-section" aria-labelledby="installation-title">
 <div class="download-section-heading"><span class="badge quickstart"><img src={asset('bbc99.svg')} alt="">INSTALLATION OVERVIEW</span><h2 id="installation-title">Installation Guide</h2><p>The planned installation process.<br class="desktop-break"> Detailed instructions will accompany the ISO release.</p></div>
 <ol class="installation-steps">
-<li><div class="step-top"><span class="step-number">01</span><img src={asset('db83f.svg')} alt=""></div><h3>Download ISO</h3><p>Download the VybeOS Arctic ISO here once the release is available.</p></li>
+<li><div class="step-top"><span class="step-number">01</span><img src={asset('db83f.svg')} alt=""></div><h3>Download ISO</h3><p>Download the <a class="iso-inline-link" href="https://cdn.vybeos.dev/vybeos-2026.11.25-x86_64.iso" download>VybeOS Arctic ISO</a> for x86_64.</p></li>
 <li><div class="step-top"><span class="step-number">02</span><img src={asset('e3949.svg')} alt=""></div><h3>Create Bootable USB</h3><p>Write the ISO to a USB drive with an imaging tool. This erases the USB contents.</p></li>
 <li><div class="step-top"><span class="step-number">03</span><img src={asset('6af1e.svg')} alt=""></div><h3>Boot VybeOS</h3><p>Restart your computer and select the USB drive from the boot menu.</p></li>
 <li><div class="step-top"><span class="step-number">04</span><img src={asset('b7206.svg')} alt=""></div><h3>Install VybeOS</h3><p>Follow the installation guide provided with the release.</p></li>

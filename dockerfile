@@ -1,3 +1,5 @@
+LABEL org.opencontainers.image.source https://github.com/Vybe-OS/website
+
 # ==========================================
 # STAGE 1: Build Stage
 # ==========================================
