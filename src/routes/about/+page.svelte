@@ -18,16 +18,9 @@
 </section>
 <section class="overview about-panel" aria-labelledby="overview-title">
 <div class="overview-copy"><span class="about-badge overview-badge"><img src={asset('e7f36.svg')} alt="">Overview</span><h2 id="overview-title">What is VybeOS?</h2><p>We are building an Arch-based Linux setup with Sway, Waybar, and development tools. The project gives us practice configuring a system and documenting how it works.</p></div>
-<div class="about-terminal" role="img" aria-label="Terminal illustration of the planned VybeOS setup; memory usage has not been measured">
-<div class="about-terminal-bar"><span class="about-terminal-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>terminal illustration</span></div>
-<div class="about-terminal-body"><p class="about-terminal-command"><span>user@vybeos</span>:<span class="terminal-path">~</span>$ neofetch --ascii_distro arch</p>
-<div class="about-terminal-info"><pre aria-hidden="true">    /\
-   /  \
-  /\   \
- /      \
-/   ,,   \
-/--'  ''--\</pre><dl><div><dt>OS:</dt><dd>VybeOS Arctic (planned)</dd></div><div><dt>Kernel:</dt><dd>Linux (version pending)</dd></div><div><dt>WM:</dt><dd>Sway (Wayland)</dd></div><div><dt>Bar:</dt><dd>Waybar</dd></div><div><dt>Memory:</dt><dd>Not measured yet</dd></div></dl></div>
-</div></div>
+<div class="about-terminal">
+<img class="fastfetch-screenshot" src="/images/vybeos-fastfetch.jpeg" alt="Fastfetch running in a dark VybeOS terminal with a blue VybeOS ASCII logo and system information" width="1143" height="684" loading="lazy" decoding="async">
+</div>
 </section>
 <section class="purpose-grid" aria-label="Our vision and mission">
 <article class="about-panel purpose-card"><span class="about-icon"><img src={asset('7df0a.svg')} alt=""></span><h2>Our Vision</h2><p>A Linux desktop that helps us learn how an operating system is configured and supports our programming assignments.</p></article>

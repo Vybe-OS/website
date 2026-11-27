@@ -22,23 +22,9 @@
 <p class="tagline">A desktop for learning and building.</p>
 <p class="intro">An Arch Linux project for learning Linux and programming.</p>
 <div class="actions"><a class="button primary" href="/downloads"><img src={asset('4b73b.svg')} alt="">Download VybeOS</a><a class="button secondary" href="#about" onclick={scrollToAbout}><img src={asset('5f499.svg')} alt="">Learn More</a></div>
-<div class="desktop" role="img" aria-label="Illustration of the planned VybeOS desktop with a terminal and code editor; not a live system">
-<div class="desktop-bar"><div class="workspaces"><span class="sway"><img src={asset('508b1.svg')} alt="">sway</span><span class="workspace"><i></i>1:code</span><span>2:web</span><span>3:media</span></div><span class="music"><img src={asset('3a077.svg')} alt="">Arctic desktop preview</span><span class="clock"><img src={asset('f1618.svg')} alt="">14:42</span></div>
-<div class="windows">
-<div class="terminal window">
-<div><div class="window-title"><span class="traffic"><i></i><i></i><i></i></span><span>vybe@arctic • terminal</span><img src={asset('a6c73.svg')} alt=""></div><div class="prompt">➜ <span>~</span> neofetch</div>
-<div class="system-info"><pre class="ascii"> /\_/\
-( o.o )
- &gt; ^ &lt;
-VYBE-OS
-ARCTIC</pre><div class="specs"><p><b>OS:</b> VybeOS Linux x86_64</p><p><b>Base:</b> Arch Linux</p><p><b>Kernel:</b> Linux (planned)</p><p><b>WM:</b> Sway (Wayland)</p><p><b>Shell:</b> zsh + starship</p></div></div></div>
-<div class="palette"><i></i><i></i><i></i><i></i><span>Desktop illustration</span></div>
+<div class="desktop">
+<img class="desktop-screenshot" src="/images/vybeos-desktop.jpeg" alt="VybeOS desktop with a white and blue wallpaper, the VybeOS logo in the center, and Waybar at the top" width="1143" height="684" decoding="async">
 </div>
-<div class="editor window">
-<div><div class="window-title"><span class="file-tab"><img src={asset('a87e0.svg')} alt="">main.rs</span><span class="cyan">NORMAL</span></div>
-<div class="code"><div><span class="line-number">01</span><code><span class="cyan">fn</span> <span class="lavender">main</span>() {'{'}</code></div><div><span class="line-number">02</span><code>{' '}<span class="cyan">let</span> project = "VybeOS";</code></div><div><span class="line-number">03</span><code>{' '}println!(<span class="cyan">"Hello from {'{'}{'}'}"</span>, project);</code></div><div><span class="line-number">04</span><code>{' '}// Add your code here.</code></div><div><span class="line-number">05</span><code>{'}'}</code></div></div></div>
-<div class="editor-status"><span><i></i>RUST_ANALYZER READY</span><span>master</span></div>
-</div></div></div>
 </section>
 <section class="features container" id="about" aria-labelledby="features-title">
 <div class="section-heading"><h2 id="features-title">Why VybeOS?</h2><p>We are building an Arch-based desktop for learning Linux,<br class="desktop-break"> writing code, and working with the terminal.</p></div>
