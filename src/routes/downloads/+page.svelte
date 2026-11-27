@@ -1,16 +1,12 @@
 <script>
   import Nav from '#lib/components/Nav.svelte'
+  import Header from '#lib/components/Header.svelte';
   import { asset } from '#lib/asset-url.js';
   import logo from '#lib/assets/876bd.png'
   import '#lib/styles/downloads.css'
 </script>
 
-<header class="header">
-<div class="container header-inner">
-<a class="brand" href="/" aria-label="VybeOS home"><span class="logo download-header-logo"><img src={logo} alt=""></span><span>Vybe<span class="brand-os">OS</span></span></a>
-<Nav current="/downloads" />
-</div>
-</header>
+<Header current="/downloads" />
 <main id="main" class="download-main">
 <div class="container download-content">
 <section class="download-heading" aria-labelledby="page-title">

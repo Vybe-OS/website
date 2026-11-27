@@ -1,5 +1,6 @@
 <script>
   import Nav from '#lib/components/Nav.svelte';
+  import Header from '#lib/components/Header.svelte';
   import { asset } from '#lib/asset-url.js';
   import logo from '#lib/assets/876bd.png';
   import '#lib/styles/styles.css';
@@ -10,12 +11,7 @@
   }
 </script>
 
-<header class="header">
-<div class="container header-inner">
-<a class="brand" href="/" aria-label="VybeOS home"><span class="logo header-logo"><img src={logo} alt=""></span><span>VybeOS</span></a>
-<Nav current="/" />
-</div>
-</header>
+<Header current="/" />
 <main id="main">
 <section class="hero container" id="home" aria-labelledby="hero-title">
 <h1 id="hero-title">Meet VybeOS.</h1>

@@ -1,14 +1,11 @@
 <script>
   import Nav from '#lib/components/Nav.svelte';
+  import Header from '#lib/components/Header.svelte';
   import { asset } from '#lib/asset-url.js';
-  import logo from '#lib/assets/876bd.png';
   import '#lib/styles/about.css';
 </script>
 
-<header class="header"><div class="container header-inner">
-<a class="brand" href="/" aria-label="VybeOS home"><span class="logo about-header-logo"><img src={logo} alt=""></span><span class="about-brand-name">VybeOS <span class="version-badge">In development</span></span></a>
-<Nav current="/about" />
-</div></header>
+<Header current="/about" />
 <main id="main" class="about-main container">
 <section class="about-hero" aria-labelledby="about-title">
 <span class="about-badge hero-badge"><img src={asset('c0331.svg')} alt="">Imagine. Create. Build.</span>
